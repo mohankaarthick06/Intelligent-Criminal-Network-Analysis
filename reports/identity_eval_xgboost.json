@@ -1,0 +1,28 @@
+{
+  "model_type": "xgboost",
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": {
+    "tn": 296,
+    "fp": 0,
+    "fn": 0,
+    "tp": 10
+  },
+  "brier_score": 0.0,
+  "test_size": 306,
+  "train_size": 1224,
+  "positive_ratio_test": 0.0327,
+  "feature_importances": {
+    "same_device_observed": 0.9697999954223633,
+    "contact_overlap_jaccard": 0.023099999874830246,
+    "temporal_pattern_similarity": 0.00430000014603138,
+    "location_overlap_similarity": 0.0,
+    "call_pattern_similarity": 0.0027000000700354576,
+    "shared_case_count": 0.0,
+    "days_between_observations": 0.0
+  }
+}

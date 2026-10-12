@@ -1,0 +1,28 @@
+{
+  "model_type": "random_forest",
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "roc_auc": 1.0,
+  "pr_auc": 1.0,
+  "confusion_matrix": {
+    "tn": 296,
+    "fp": 0,
+    "fn": 0,
+    "tp": 10
+  },
+  "brier_score": 0.0001,
+  "test_size": 306,
+  "train_size": 1224,
+  "positive_ratio_test": 0.0327,
+  "feature_importances": {
+    "same_device_observed": 0.3554,
+    "contact_overlap_jaccard": 0.2758,
+    "temporal_pattern_similarity": 0.1271,
+    "location_overlap_similarity": 0.0512,
+    "call_pattern_similarity": 0.1517,
+    "shared_case_count": 0.0373,
+    "days_between_observations": 0.0015
+  }
+}
